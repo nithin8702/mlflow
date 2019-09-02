@@ -5,6 +5,7 @@ dependencies:
 - scikit-learn=0.21.2
 - pip:
   - xgboost==0.90
+  - matplotlib==3.1.0
   - mlflow
   - cloudpickle==1.2.1
 name: mlflow-env
