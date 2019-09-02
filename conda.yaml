@@ -3,9 +3,11 @@ channels:
 dependencies:
 - python=3.7.3
 - scikit-learn=0.21.2
+- pip
 - pip:
   - xgboost==0.90
   - matplotlib==3.1.0
+  - seaborn==0.9.0
   - mlflow
   - cloudpickle==1.2.1
 name: mlflow-env
